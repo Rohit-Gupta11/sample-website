@@ -1,0 +1,33 @@
+@media only screen and (max-width:1140px){
+    .nav-list{
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+        height: 447px;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    #search{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav{
+        height: 72px;
+    }
+    .v-nav{
+        opacity: 0;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .box-main{
+        flex-direction: column-reverse;
+    }
+
+}
